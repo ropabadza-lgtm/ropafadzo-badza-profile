@@ -1,0 +1,25 @@
+{
+  "name": "ropafadzo_badza---copy",
+  "version": "1.0.0",
+  "description": "This is my personal profile and mini-portfolio created for my Web Technologies course. The website introduces my background, skills and interests as a Computer Information Systems student.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ropabadza-lgtm/ropafadzo-badza-profile.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ropabadza-lgtm/ropafadzo-badza-profile/issues"
+  },
+  "homepage": "https://github.com/ropabadza-lgtm/ropafadzo-badza-profile#readme",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.3.3",
+    "tailwindcss": "^4.3.3"
+  }
+}
