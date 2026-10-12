@@ -60,3 +60,39 @@ These changes improved the accessibility of my portfolio and made the form and i
 ## Version Control
 
 Git and GitHub were used to track the development of this portfolio. The project was developed through multiple incremental commits as features and improvements were added.
+
+
+## Responsive Design Notes
+
+### Overview
+
+This personal profile and mini-portfolio uses HTML5, custom CSS, and Tailwind CSS to create a responsive and accessible web experience.
+
+### Responsive Techniques
+
+* **Mobile-first CSS:** Base styles are designed for smaller screens, with media queries adjusting the layout for larger screens.
+* **Flexbox:** Used to arrange and wrap navigation links when screen space is limited.
+* **CSS Grid:** Used to organise skill cards into columns on wider screens.
+* **Tailwind CSS:** Responsive utility classes such as `sm:`, `md:`, and `lg:` help adjust spacing and column layouts at different breakpoints.
+* **Custom media queries:** The stylesheet adjusts the layout at different viewport widths.
+* **Accessibility:** Semantic HTML elements, descriptive image alternative text, labelled form fields, and built-in form validation improve usability.
+
+### Responsive Testing
+
+The portfolio was tested using the browser's responsive design tools at the following viewport widths:
+
+| Viewport |  Width | Result |
+| -------- | -----: | ------ |
+| Mobile   |  375px | Passed |
+| Tablet   |  768px | Passed |
+| Desktop  | 1280px | Passed |
+
+The layout was checked at all three widths to confirm that content remains visible, navigation is usable, and the page does not overflow horizontally.
+
+### Technologies Used
+
+* HTML5
+* CSS3
+* Tailwind CSS
+* Git
+* GitHub
